@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipython = "*"
+pytest = "*"
+pytest-django = "*"
+pytest-cov = "*"
+black = "==18.9b0"
+isort = "*"
+flake8 = "*"
+pre-commit = "*"
+
+[packages]
+django = "*"
+django-extensions = "*"
+requests = "*"
+python-decouple = "*"
+
+[requires]
+python_version = "3.7"
